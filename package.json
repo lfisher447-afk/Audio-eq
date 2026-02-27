@@ -1,0 +1,22 @@
+{
+  "name": "audiopilot-pro",
+  "version": "1.0.0",
+  "description": "Professional Audio Streaming and Processing Engine",
+  "main": "src/client/AudioPilot.js",
+  "bin": {
+    "audiopilot": "./src/server/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/server/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.4",
+    "ora": "^5.4.1",
+    "boxen": "^5.1.2",
+    "ip": "^1.1.8",
+    "fluent-ffmpeg": "^2.1.2",
+    "p5": "^1.9.0",
+    "react": "^18.2.0"
+  }
+}
